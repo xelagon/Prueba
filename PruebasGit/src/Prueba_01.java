@@ -1,4 +1,4 @@
-import java.io.File;
+//import java.io.File;
 import java.util.Map;
 
 /**
@@ -24,15 +24,6 @@ public class Prueba_01 {
 	public static final String userHome= "user.home"; 										   // The home directory of user 
 	public static final String userDir= "user.dir";    										   // The current working directory of the user
 
-	/*
-	public static final String = ""
-	public static final String = ""
-	public static final String = ""
-	public static final String = ""
-	public static final String = ""
-	public static final String = ""
-	public static final String = ""
-	*/
 
 	/**
 	 * @param args
@@ -78,8 +69,6 @@ public class Prueba_01 {
 		  
 		  // Returns an unmodifiable string map view of the current system environment.
 		  Map <String,String> map = System.getenv();
-		
-		
 	}
 
 }
